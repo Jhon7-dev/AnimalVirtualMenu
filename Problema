@@ -17,7 +17,7 @@ o energia (tipo int): nível de energia do animal (inicia com 100).
 o felicidade (tipo int): nível de felicidade do animal (inicia com 100).
 
 ==>Implemente os seguintes métodos:
-o Animal(construtor)
+ 
 o alimentar(): aumenta a energia do animal em 10.
 o brincar(): aumenta a felicidade em 10 e diminui a energia em 5.
 o dormir(): restaura a energia do animal para 100.
