@@ -1,8 +1,8 @@
-riar um programa em Java para simular um Animal Virtual, onde será possível
+Criar um programa em Java para simular um Animal Virtual, onde será possível
 alimentar, brincar e fazer o animal dormir. Seu objetivo é aplicar os conceitos de Programação
 Orientada a Objetos (POO), como classe, objeto, atributos, métodos e encapsulamento.
 
-crie uma classe chamada Animal com os seguintes atributos privados:
+==> Crie uma classe chamada Animal com os seguintes atributos privados:
 
        String nome;
        String tipo;
@@ -10,13 +10,13 @@ crie uma classe chamada Animal com os seguintes atributos privados:
        int energia;
        int felicidade;
 
-  nome (tipo String): nome do animal.
+o  nome (tipo String): nome do animal.
 o tipo (tipo String): tipo de animal (exemplo: cachorro, gato, etc.).
 o idade (tipo int): idade do animal.
 o energia (tipo int): nível de energia do animal (inicia com 100).
 o felicidade (tipo int): nível de felicidade do animal (inicia com 100).
 
-implemente os seguintes métodos:
+==>Implemente os seguintes métodos:
 o Animal(construtor)
 o alimentar(): aumenta a energia do animal em 10.
 o brincar(): aumenta a felicidade em 10 e diminui a energia em 5.
@@ -24,7 +24,7 @@ o dormir(): restaura a energia do animal para 100.
 o mostrarStatus(): exibe o nome, tipo, idade, energia e felicidade do animal de
 maneira organizada.
 
-Teste no método main
+==>Teste no método main
 
 1. No método main, crie dois objetos da classe Animal com diferentes nomes, tipos e idades.
 2. Exiba o status inicial de cada animal usando o método mostrarStatus().
@@ -35,25 +35,22 @@ o Fazer um dos animais dormir.
 4. Após cada interação, exiba novamente o status do animal para verificar as mudanças nos
 atributos de energia e felicidade.
 
-========================================================================
+============= 
 Exemplo de saída esperada:
+
 Status inicial dos animais:
+
 Nome: Rex
 Tipo: Cachorro
 Idade: 3
 Energia: 100
 Felicidade: 100
 -----------------------------
-Nome: Mimi
-Tipo: Gato
-Idade: 2
-Energia: 100
-Felicidade: 100
------------------------------
+ 
 Rex foi alimentado!
 Rex está brincando e está mais feliz!
 
-Crie a seguinte classe em java e implemente o menu:
+==> Crie a seguinte classe em java e implemente o menu:
 
 1. Cadastrar Animal
 2. Alimentar
